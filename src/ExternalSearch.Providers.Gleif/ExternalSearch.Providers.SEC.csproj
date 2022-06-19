@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <None Remove="Resources\sec-logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CluedIn.Core" />
+    <PackageReference Include="CluedIn.ExternalSearch" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\sec-logo.png" />
+  </ItemGroup>
+</Project>
